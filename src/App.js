@@ -25,7 +25,7 @@ const App = () => {
           />
           <a className="quantity__plus"
             title="Increment"
-            onClick={() => dispatch(incrementNumber())}
+            onClick={() => dispatch(incrementNumber(5))}
           >
             <span> + </span></a>
         </div>
